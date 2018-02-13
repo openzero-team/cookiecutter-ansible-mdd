@@ -1,0 +1,7 @@
+{
+    "project_name": "reclass-ansible-project",
+    "inventory_base_uri": "inventory",
+    "_copy_without_render": [
+        "ansible.cfg"
+    ]
+}

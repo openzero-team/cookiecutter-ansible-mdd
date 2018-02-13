@@ -1,0 +1,5 @@
+applications:
+  - inventory
+parameters:
+  inventory:
+    nodes_base_uri: ${_params:inventory_base_uri}/nodes/_generated

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "39a7185764388484587e663491d2bbc7dbe7ef725571509f9d3c8550168aba23"
+            "sha256": "aac73693fc0f2a426029b9202da878e82886b0a2292a931634b714ecaf14b6a5"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -12,7 +12,7 @@
             "platform_release": "17.4.0",
             "platform_system": "Darwin",
             "platform_version": "Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64",
-            "python_full_version": "2.7.13",
+            "python_full_version": "2.7.14",
             "python_version": "2.7",
             "sys_platform": "darwin"
         },
@@ -32,6 +32,13 @@
                 "sha256:0e98b3a56928d03979d5f8e7ae5d8e326939111b298729b03f00b3ad8f998a3d"
             ],
             "version": "==2.4.3.0"
+        },
+        "ansible-toolbox": {
+            "hashes": [
+                "sha256:751516e635ffc38a9eb17f21b5fadf47c5e615f54674c0a53841772f13bea4f9",
+                "sha256:acbfe462ae3d6410411fb7976d2ae2a4066d2a487f9f37cab9f48a9c3e6c140f"
+            ],
+            "version": "==0.3"
         },
         "asn1crypto": {
             "hashes": [
@@ -104,6 +111,7 @@
                 "sha256:87f837459c3c78d75cb4f5aadf08a7104db15e8c7618a5c732e60f252279c7a6",
                 "sha256:df9083a992b17a28cd4251a3f5c879e0198bb26c9e808c4647e0a18739f1d11d"
             ],
+            "markers": "platform_python_implementation != 'PyPy'",
             "version": "==1.11.4"
         },
         "cryptography": {

@@ -9,6 +9,8 @@ name = "pypi"
 
 ansible = ">=2.4"
 reclass = "*"
+ansible-toolbox = "*"
 
 
 [dev-packages]
+
